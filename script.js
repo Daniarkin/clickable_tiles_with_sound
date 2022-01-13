@@ -28,8 +28,6 @@ function getNextColor() {
 
 }
 
-
-
 const boopAudio = document.getElementById('boopAudio');
 container.addEventListener('click', fPlay, false);
 function fPlay() {
