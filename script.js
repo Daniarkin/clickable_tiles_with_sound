@@ -29,9 +29,9 @@ function getNextColor() {
 }
 
 
-var boop = document.getElementById('boop'),
-  boopAudio = document.getElementById('boopAudo');
-boop.addEventListener('click', fPlay, false);
+
+const boopAudio = document.getElementById('boopAudio');
+container.addEventListener('click', fPlay, false);
 function fPlay() {
   boopAudio.play();
 }
